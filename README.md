@@ -1,4 +1,4 @@
-# nmapper
+# NMapper v1.0
 NMapper 1.0 es un escaner automatizado con scripts para Pentesting en NMAP.
 
 USO: sudo bash [script]
