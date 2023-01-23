@@ -41,7 +41,7 @@ read -p "¿Qué escaneo quieres realizar?: " opcion
 
                 1)nmap -sN $host/24 ;;
                 2)nmap -sC -sV -oA $host ;;
-                3)nmap -sC -sV -oA -top-ports 100 $host ;;
+                3)nmap -sC -sV -oA $host -top-ports 100  ;;
                 4)nmap -sU $host ;;
                 5)nmap -O $host ;;
                 6)nmap -Pn -script vuln $host ;;
